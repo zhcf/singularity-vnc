@@ -27,10 +27,6 @@ The container image is installed with the following components:
   cd singularityvnc
   singularity build centosvncgpu.sif  centos-xfce-vnc-gpu.def
   ```
-  And when you use the gpu container, you should add --nv.
-  ```
-  singularity exec --nv centosvncgpu.sif /opt/vnc_startup.sh VNC_PORT:5901 VNC_PW:Passw0rd
-  ```
   
 - Singularity shell to check the help
 
